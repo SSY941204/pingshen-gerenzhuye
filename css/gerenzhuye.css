@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 417806 */
+  src: url('https://at.alicdn.com/t/font_417806_qsw2pmtxtuoywrk9.eot');
+  src: url('https://at.alicdn.com/t/font_417806_qsw2pmtxtuoywrk9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_417806_qsw2pmtxtuoywrk9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_417806_qsw2pmtxtuoywrk9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_417806_qsw2pmtxtuoywrk9.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.head{
+	background-image:url('../img/8.jpg');
+	background-size: cover;
+	background-position: center center;
+	/* background: url('../img/photo-01.jpg')  center/cover; */
+	height: 100vh;
+	position: relative;
+}
+.zhezhao{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	text-align: center;
+	overflow: hidden;
+}
+h1{
+	font-size: 80px;
+	color: #ffffff;
+	font-family: "苹方";
+	font-weight: bolder;
+	margin-top: 150px;
+}
+span{
+	color: #05BCA9;
+	font-weight: bolder;
+	font-family: "苹方";
+}
+h3{
+	font-size: 20px;
+	color: #fff;
+	font-family: "苹方";
+}
+.zhezhao-box{
+	width: 198px;
+	height: 45px;
+	background-color: #05BCA9;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+	font-family: "苹方";
+	margin: 0 auto;
+	margin-top: 35px;
+}
+
+
+
+
+/* 简介开始 */
+.jianjie{
+	/* background-color: red; */
+	margin: 90px 0;
+}
+.jianjie1{
+	/* background-color: green; */
+	padding:0 15px;
+}
+.jianjie2{
+	padding: 0 15px;
+}
+h2{
+	color: #05BCA9;
+	font-size: 22px;
+	font-weight: bolder;
+	font-family: "苹方";
+}
+.zhongwen{
+	font-size: 16px;
+	font-family: "苹方";
+
+}
+p{
+	font-family: "苹方";
+	color: #8F8F8F;
+	margin-bottom: 36px;
+	margin-top: 10px;
+}
+
+
+
+
+/* 展示开始 */
+.show{
+	background-color: #EAEAED;
+	padding: 90px 0;
+}
+.kuai1{
+	padding:0 15px;
+	position: relative;
+}
+.kuai1 .iconfont{
+	width: 70px;
+	height: 70px;
+	/* background-color: #fff; */
+	margin: 0 auto;
+	font-size: 50px;
+	text-align: center;
+	line-height: 70px;
+	border-radius:50%;
+	color: #4B4B4B;
+
+	/* margin-bottom: 20px; */
+}
+.tou{
+	width: 70px;
+	height: 70px;
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	border-radius: 50%;
+	transition: all 2s ease;
+}
+.kuai1:hover .tou{
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.kuai1:hover .kuang{
+	transform: rotate(0.5turn);
+
+}
+.kuang{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 2px solid #6C6A6A;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	border-top-color: white;
+	border-left-color: white;
+	transition: all 1s ease;
+	
+}
+h4{
+	color: #4B4B4B;
+	font-size: 18px;
+	font-weight: bolder;
+	font-family: "苹方";
+	text-align: center;
+	margin-bottom: 25px;
+}
+.kuai1 p{
+	text-align: center;
+	color: #05BCA9;
+
+
+}
+
+
+
+
+/* 作品展示开始 */
+.tupian{
+	/* background-color: yellow; */
+	padding: 90px 0;
+}
+.tupian2{
+	/* background-color: skyblue; */
+	padding: 0 15px;
+	text-align: center;
+
+}
+.tupian2 h2{
+	font-size: 18px;
+}
+li{
+	font-size: 12px;
+	font-family: "苹方" ;
+	color: #333333;
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+.tupian3{
+	transition: all 0.5s ease;
+}
+.tupian3:hover{
+	transform: translateY(-10px);
+	/* box-shadow: 0px 0px 15px 20px #BDBDBD; */
+}
+.tupian3 img{
+	padding: 0 15px;
+	margin-bottom: 30px;
+	position: relative;
+	min-height: 1px;
+}
+
+
+/* 分类开始 */
+.fenlei h2{
+	font-size: 18px;
+}
+.fenlei{
+	background-color: #EAEAED;
+	padding: 90px 0;
+}
+.fenlei1{
+	/* background-color: orangered; */
+	padding: 0 15px;
+	text-align: center;
+}
+.fenlei3 img{
+
+}
+
+
+/* 项目介绍开始 */
+.xiangmu{
+	/* background-color: pink; */
+	padding: 90px 0;
+}
+.xiangmu1{
+	/* background-color: blue; */
+	text-align: center;
+}
+.xiangmu h2{
+	font-size: 18px;
+}
+.xiangmu2{
+	padding:0 15px;
+}
